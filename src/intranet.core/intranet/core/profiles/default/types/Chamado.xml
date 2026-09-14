@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="Chamado" meta_type="Dexterity FTI" i18n:domain="intranet.core"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <property name="title">Chamado</property>
+ <property name="description">Abertura de Chamado Interno</property>
+ <property name="factory">Chamado</property>
+ <property name="add_permission">cmf.AddPortalContent</property>
+ <property name="schema">intranet.core.chamado.IChamado</property>
+ <property name="klass">plone.dexterity.content.Item</property>
+ <property name="behaviors">
+  <element value="plone.dublincore"/>
+ </property>
+ <property name="global_allow">True</property>
+ <property name="filter_content_types">False</property>
+</object>

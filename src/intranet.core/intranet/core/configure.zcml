@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    package="intranet.core"
+    i18n_domain="intranet.core">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Intranet Core: Content Types"
+      directory="profiles/default"
+      description="Instala os tipos de conteudo customizados da intranet."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

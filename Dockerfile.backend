@@ -1,0 +1,5 @@
+FROM plone/plone-backend:6
+
+COPY src/intranet.core /app/src/intranet.core
+
+RUN /app/bin/pip install -e /app/src/intranet.core

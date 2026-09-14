@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="Setor" meta_type="Dexterity FTI" i18n:domain="intranet.core"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <property name="title">Setor</property>
+ <property name="description">Setor ou Departamento da Empresa</property>
+ <property name="factory">Setor</property>
+ <property name="add_permission">cmf.AddPortalContent</property>
+ <property name="schema">intranet.core.setor.ISetor</property>
+ <property name="klass">plone.dexterity.content.Container</property>
+ <property name="behaviors">
+  <element value="plone.dublincore"/>
+ </property>
+ <property name="global_allow">True</property>
+ <property name="filter_content_types">False</property>
+</object>

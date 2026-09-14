@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <!-- Define quem pode adicionar os conteúdos padrão -->
+    <permission name="ATContentTypes: Add Document" acquire="False">
+      <role name="Manager"/>
+    </permission>
+    <permission name="ATContentTypes: Add News Item" acquire="False">
+      <role name="Manager"/>
+    </permission>
+    <permission name="ATContentTypes: Add Event" acquire="False">
+      <role name="Manager"/>
+    </permission>
+  </permissions>
+</rolemap>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<object name="Noticia" meta_type="Dexterity FTI" i18n:domain="intranet.core"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <property name="title">Noticia / Comunicado</property>
+ <property name="description">Noticias e comunicados internos da intranet</property>
+ <property name="icon_expr">string:newspaper</property>
+ <property name="factory">Noticia</property>
+ <property name="add_permission">cmf.AddPortalContent</property>
+ <property name="klass">plone.dexterity.content.Item</property>
+ <property name="schema">intranet.core.noticia.INoticia</property>
+ <property name="behaviors">
+  <element value="plone.dublin core"/>
+  <element value="plone.namefromtitle"/>
+ </property>
+ <property name="filter_content_types">False</property>
+ <property name="allow_discussion">False</property>
+</object>

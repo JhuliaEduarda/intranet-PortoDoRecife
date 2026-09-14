@@ -1,0 +1,6 @@
+node_modules/
+_pycache_/
+*.pyc
+*.tar.gz
+.env
+back end/
