@@ -1,4 +1,4 @@
-\# Intranet Porto do Recife
+# Intranet Porto do Recife
 
 
 
@@ -6,19 +6,19 @@ Projeto de desenvolvimento da Intranet do Porto do Recife.
 
 
 
-\## Equipe
+## Equipe
 
 
 
-\- Jhulia — Backend
+- Jhulia — Backend
 
-\- Matheus — Backend
+- Matheus — Backend
 
-\- Lucas — Frontend
+- Lucas — Frontend
 
 
 
-\## Estrutura
+## Estrutura
 
 
 
@@ -26,45 +26,43 @@ O projeto será dividido em:
 
 
 
-\- `backend/` — Backend desenvolvido com Plone.
+- `backend/` — Backend desenvolvido com Plone.
 
-\- `frontend/` — Frontend desenvolvido com Volto.
-
-
-
-\## Tecnologias
+- `frontend/` — Frontend desenvolvido com Volto.
 
 
+## Tecnologias
 
-\### Backend
 
-\- Plone
+### Backend
 
-\- Python
+- Plone
 
-\- Zope
+- Python
 
-\- ZODB
+- Zope
 
-\- Docker
+- ZODB
 
-\- REST API
+- Docker
+
+- REST API
 
 
 
-\### Frontend
+### Frontend
 
-\- Volto
+- Volto
 
-\- React
+- React
 
-\- JavaScript
+- JavaScript
 
-\- Docker
+- Docker
 
 
 
-\## Desenvolvimento
+## Desenvolvimento
 
 
 
@@ -84,7 +82,7 @@ Novas funcionalidades serão desenvolvidas em branches próprias e integradas à
 
 
 
-\## Comunicação
+## Comunicação
 
 
 
